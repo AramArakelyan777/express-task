@@ -4,9 +4,14 @@
     "main": "index.js",
     "author": "Aram Arakelyan <aram777arakelyan@gmail.com>",
     "license": "MIT",
+    "scripts": {
+        "dev": "node --watch index.js"
+    },
     "dependencies": {
         "cookie-parser": "^1.4.7",
+        "dotenv": "^16.4.7",
         "express": "^5.1.0",
         "express-session": "^1.18.1"
-    }
+    },
+    "type": "module"
 }
